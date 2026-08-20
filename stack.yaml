@@ -1,0 +1,6 @@
+resolver: lts-24.10
+
+packages:
+  - .
+
+extra-deps: []
