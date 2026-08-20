@@ -171,36 +171,6 @@ input system, and module system are developed.
 The project is therefore best considered an early-stage experiment rather than
 a production-ready text editor.
 
-Project Structure
------------------
-
-The project is organized around a small core with separate subsystems:
-
-.. code-block::
-
-   ajustage/
-   |
-   +-- app/
-   |   `-- Main.hs
-   |
-   +-- src/
-   |   `-- Ajustage/
-   |       +-- Core.hs
-   |       +-- Buffer.hs
-   |       +-- Input.hs
-   |       +-- Render.hs
-   |       +-- Theme.hs
-   |       `-- Module.hs
-   |
-   +-- test/
-   |   `-- Spec.hs
-   |
-   +-- package.yaml
-   +-- stack.yaml
-   `-- README.rst
-
-The structure will evolve as the editor grows.
-
 Philosophy
 ----------
 
@@ -222,10 +192,3 @@ Ajustage is under active development.
 The current priority is the editor core: buffers, cursors, text editing,
 movement, and the basic abstractions required by the renderer and module
 system.
-
-License
--------
-
-Ajustage is free and open-source software.
-
-The project's license will be specified as development progresses.
